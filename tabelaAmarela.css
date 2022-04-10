@@ -1,0 +1,30 @@
+.container{
+    padding: 30px;
+    background-color: orange;
+    margin: auto;
+    width: max-content;
+    box-shadow: 10px 10px 9px rgba(197, 197, 197, 0.712);
+}
+
+table#tableConteudo{
+    border-spacing: 0px;
+    font-family:'Supermercado One', cursive;
+    background-color: orange;
+}
+
+
+table#tableConteudo th{
+    background-color: black;
+    color: white;
+    padding: 3px 50px;
+}
+
+table#tableConteudo tr{
+    text-align: center; 
+    padding: 8px 40px;
+}
+
+
+table#tableConteudo tr:nth-child(even){
+    background-color: rgb(255, 198, 74);
+}
